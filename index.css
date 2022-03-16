@@ -8,6 +8,15 @@ h1 {
 h2 {
   color: brown;
   font-size: 20px;
+  height: 80px;
+  width: 80px;
+}
+nav li {
+  display: inline;
+  padding-right: 2rem;
+}
+nav li:last-child {
+  padding-right: 0;
 }
 
   
