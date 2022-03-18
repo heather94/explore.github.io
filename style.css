@@ -6,6 +6,16 @@ h1 {
   font-size: 32px;
 }
 
+nav {
+  text-align: center;
+  width: 180px;
+  margin: 0 auto;
+}
+
+nav .img {
+  display: block;
+}
+
 nav span {
   display: inline;
   padding-right: 2rem;
@@ -13,25 +23,41 @@ nav span {
 nav span:last-child {
   padding-right: 0;
 }
-ul .menu li {
+
+.menu {
+  width: 700px;
+  text-align: center;
+  height: 200px;
+  margin: 5px;
+}
+
+.menu li {
   display: inline-block;
   list-style: none;
-  width: 200px;
-  height: 200px;
-  padding: 10px;
-  margin: 0 3px 0 0;
   color: black;
   font-size: 26px;
   letter-spacing: 2px;
   font-weight: 700
 }
-ul .menu li .Templates {
+.menu li .Templates {
   background-color: red;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 0 3px 0 0;
 }
-ul .menu li .WebsiteDesign {
+.menu li .WebsiteDesign {
   background-color: orange;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 0 3px 0 0;
 }
-ul .menu li .DatabaseDevelopment {
+.menu li .DatabaseDevelopment {
   background-color: green;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 0 3px 0 0;
 }
 
