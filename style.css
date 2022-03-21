@@ -32,7 +32,7 @@ nav span:last-child {
 }
 
 .menu {
-  display: inline-block;
+  display: inline;
   list-style: none;
   color: black;
   font-size: 26px;
