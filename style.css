@@ -31,7 +31,7 @@ nav span:last-child {
   margin: 5px;
 }
 
-.menu li {
+.menu {
   display: inline-block;
   list-style: none;
   color: black;
@@ -39,25 +39,54 @@ nav span:last-child {
   letter-spacing: 2px;
   font-weight: 700
 }
-.menu li .Templates {
+.Templates {
   background-color: red;
-  width: 200px;
-  height: 200px;
   padding: 10px;
-  margin: 0 3px 0 0;
+  box-sizing: border-box;
+  width: 240px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Garamond',sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px;
 }
-.menu li .WebsiteDesign {
+.WebsiteDesign {
   background-color: orange;
-  width: 200px;
-  height: 200px;
   padding: 10px;
   margin: 0 3px 0 0;
+  box-sizing: border-box;
+  width: 240px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Garamond',sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px;
 }
-.menu li .DatabaseDevelopment {
+.DatabaseDevelopment {
   background-color: green;
-  width: 200px;
-  height: 200px;
   padding: 10px;
   margin: 0 3px 0 0;
+  box-sizing: border-box;
+  width: 240px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Garamond',sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px;
 }
 
