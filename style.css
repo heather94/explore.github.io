@@ -18,10 +18,9 @@ nav .img {
 
 nav span {
   display: inline;
-  padding-right: 2rem;
 }
 nav span:last-child {
-  padding-right: 0;
+
 }
 
 .menu {
@@ -45,12 +44,12 @@ nav span:last-child {
   box-sizing: border-box;
   width: 240px;
   height: 200px;
-  display: flex;
+  display: inline;
   align-items: center;
   justify-content: center;
   color: #fff;
   font-family: 'Garamond',sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   text-transform: uppercase;
   margin: 5px;
@@ -62,12 +61,12 @@ nav span:last-child {
   box-sizing: border-box;
   width: 240px;
   height: 200px;
-  display: flex;
+  display: inline;
   align-items: center;
   justify-content: center;
   color: #fff;
   font-family: 'Garamond',sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   text-transform: uppercase;
   margin: 5px;
@@ -79,12 +78,12 @@ nav span:last-child {
   box-sizing: border-box;
   width: 240px;
   height: 200px;
-  display: flex;
+  display: inline;
   align-items: center;
   justify-content: center;
   color: #fff;
   font-family: 'Garamond',sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   text-transform: uppercase;
   margin: 5px;
