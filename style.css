@@ -1,91 +1,69 @@
 body {
-  font-family: Garamond;
+  font-family: "Montesserat";
 }
 h1 {
-  color: red;
+  color: #C80004;
   font-size: 32px;
 }
 
-nav {
+.top-menu {
   text-align: center;
-  width: 180px;
+  width: 100%;
   margin: 0 auto;
 }
 
-nav .img {
+.top-menu .img {
+  display: block;
+  max-width: 120px;
+  max-heigh: 120px;
+}
+
+.top-menu span {
+  display: inline;
+}
+
+.colours {
+  border: dashed 1px black;
+  padding: 10px;
+  margin: 10px;
+  }
+ul.samples {
+  padding: 5px;
+  margin: 10px;
+}
+.colour-menu {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
   display: block;
 }
-
-nav span {
-  display: inline;
-}
-nav span:last-child {
-
-}
-
-.menu {
-  width: 700px;
-  text-align: center;
-  height: 200px;
-  margin: 5px;
-}
-
-.menu {
-  display: inline;
+#Templates {
+  background-color: #C80004;
+  margin: 0 0 3px 0;
+  padding: 30px 40px;
+  width: 200px;
   list-style: none;
-  color: black;
-  font-size: 26px;
-  letter-spacing: 2px;
-  font-weight: 700
-}
-.Templates {
-  background-color: red;
-  padding: 10px;
-  box-sizing: border-box;
-  width: 240px;
-  height: 200px;
-  display: inline;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-family: 'Garamond',sans-serif;
-  font-size: 20px;
   text-align: center;
-  text-transform: uppercase;
-  margin: 5px;
+  display: inline-block;
 }
-.WebsiteDesign {
-  background-color: orange;
-  padding: 10px;
-  margin: 0 3px 0 0;
-  box-sizing: border-box;
-  width: 240px;
-  height: 200px;
-  display: inline;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-family: 'Garamond',sans-serif;
-  font-size: 20px;
+#WebsiteDesign {
+  background-color: #e46c2b;
+  margin: 0 0 3px 0;
+  padding: 30px 40px;
+  width: 200px;
+  list-style: none;
   text-align: center;
-  text-transform: uppercase;
-  margin: 5px;
+  display: inline-block;
 }
-.DatabaseDevelopment {
-  background-color: green;
-  padding: 10px;
-  margin: 0 3px 0 0;
-  box-sizing: border-box;
-  width: 240px;
-  height: 200px;
-  display: inline;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-family: 'Garamond',sans-serif;
-  font-size: 20px;
+#DatabaseDevelopment {
+  background-color: #1b4b23;
+  margin: 0 0 3px 0;
+  padding: 30px 40px;
+  width: 200px;
+  list-style: none;
   text-align: center;
-  text-transform: uppercase;
-  margin: 5px;
+  display: inline-block;
 }
+
 
